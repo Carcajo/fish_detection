@@ -1,0 +1,13 @@
+version: '3'
+
+services:
+  yolomodel:
+    build: .
+    volumes:
+      - ./:/app
+      - ./model:/app/model
+      - ./scripts:/app/scripts
+      - ./dataset:/app/dataset
+    environment:
+      - PYTHONUNBUFFERED=1
+    command: python scripts/predict_image.py

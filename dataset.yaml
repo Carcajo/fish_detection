@@ -1,0 +1,9 @@
+train: /home/maxim/PycharmProjects/alfa_vision/dataset/images/train
+val: /home/maxim/PycharmProjects/alfa_vision/dataset/images/valid
+
+labels:
+  train: /home/maxim/PycharmProjects/alfa_vision/dataset/labels/train
+  val: /home/maxim/PycharmProjects/alfa_vision/dataset/labels/valid
+
+names:
+  0: fish
